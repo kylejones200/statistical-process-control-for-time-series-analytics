@@ -6,11 +6,11 @@ Statistical Process Control (SPC) is an analytical approach used to monitor and 
 
 SPC is centered around control charts, which visualize process behavior over time, enabling users to differentiate between common cause variations (natural fluctuations) and special cause variations (significant deviations). The primary tools in SPC include:
 
-- **X-bar Chart**: Monitors process means.
+- X-bar Chart: Monitors process means.
 
-- **R Chart**: Tracks the range of variation within subgroups.
+- R Chart: Tracks the range of variation within subgroups.
 
-- **Control Limits**: Established at three standard deviations above and below the process mean, defining the expected range of variation.
+- Control Limits: Established at three standard deviations above and below the process mean, defining the expected range of variation.
 
 # Process Capability Analysis
 
@@ -24,39 +24,39 @@ SPC is widely used across industries to enhance process reliability, efficiency,
 
 In manufacturing, SPC transforms quality control from reactive inspection to proactive prevention. For example:
 
-- **Automotive Industry**: Monitoring critical dimensions ensures precise tolerances for vehicle assembly.
+- Automotive Industry: Monitoring critical dimensions ensures precise tolerances for vehicle assembly.
 
-- **Electronics Manufacturing**: Detecting subtle shifts in component characteristics prevents defective products.
+- Electronics Manufacturing: Detecting subtle shifts in component characteristics prevents defective products.
 
 ## Healthcare
 
 Healthcare organizations implement SPC to maintain consistent patient care quality. It is used to monitor:
 
-- **Operating Room Turnover Times**: Optimizes scheduling and resource utilization.
+- Operating Room Turnover Times: Optimizes scheduling and resource utilization.
 
-- **Medication Error Rates**: Ensures patient safety.
+- Medication Error Rates: Ensures patient safety.
 
-- **Patient Wait Times**: Enhances patient satisfaction by reducing delays.
+- Patient Wait Times: Enhances patient satisfaction by reducing delays.
 
 ## Supply Chain and Logistics
 
 SPC enhances reliability and efficiency in supply chain operations by monitoring:
 
-- **Order Fulfillment Times**: Ensures on-time delivery.
+- Order Fulfillment Times: Ensures on-time delivery.
 
-- **Accuracy Rates**: Minimizes errors in order processing.
+- Accuracy Rates: Minimizes errors in order processing.
 
-- **Route Efficiency**: Optimizes logistics operations.
+- Route Efficiency: Optimizes logistics operations.
 
 ## Financial Institutions
 
 Financial organizations use SPC to:
 
-- **Monitor Transaction Processing**: Ensures accurate and timely financial transactions.
+- Monitor Transaction Processing: Ensures accurate and timely financial transactions.
 
-- **Detect Fraudulent Activities**: Identifies unusual patterns for risk mitigation.
+- Detect Fraudulent Activities: Identifies unusual patterns for risk mitigation.
 
-- **Ensure Regulatory Compliance**: Maintains process consistency and adherence to standards.
+- Ensure Regulatory Compliance: Maintains process consistency and adherence to standards.
 
 # Example: Control Chart Implementation in Python
 
@@ -96,11 +96,11 @@ plt.title("Control Chart with Out-of-Control Areas") plt.xlabel("Time") plt.ylab
 
 ## Interpreting the Control Chart
 
-- **In-Control**: Points lie within the control limits (UCL and LCL).
+- In-Control: Points lie within the control limits (UCL and LCL).
 
-- **Out-of-Control**: Points outside the control limits indicate a problem that needs investigation.
+- Out-of-Control: Points outside the control limits indicate a problem that needs investigation.
 
-- **Patterns**: Consistent trends or shifts may indicate underlying issues, even if points remain within limits.
+- Patterns: Consistent trends or shifts may indicate underlying issues, even if points remain within limits.
 
 # Implementation Considerations
 
@@ -130,17 +130,17 @@ Successful SPC implementation requires more than statistical knowledge. Key cons
 
 Modern SPC implementations increasingly incorporate machine learning and artificial intelligence for:
 
-- **Pattern Recognition**: Advanced algorithms detect subtle trends that traditional control charts might miss.
+- Pattern Recognition: Advanced algorithms detect subtle trends that traditional control charts might miss.
 
-- **Predictive Capabilities**: Early intervention is enabled by predictive models identifying deteriorating processes.
+- Predictive Capabilities: Early intervention is enabled by predictive models identifying deteriorating processes.
 
 ## Real-Time Monitoring and IIoT Integration
 
 Real-time monitoring systems integrate SPC with Industrial Internet of Things (IIoT) sensors, providing:
 
-- **Automated Data Collection**: Reduces human error and increases data accuracy.
+- Automated Data Collection: Reduces human error and increases data accuracy.
 
-- **Immediate Feedback**: Enables rapid response to process changes.
+- Immediate Feedback: Enables rapid response to process changes.
 
 Statistical Process Control is a cornerstone of modern quality management, combining traditional statistical methods with emerging technologies to provide robust process monitoring and control. SPC's ability to transform raw data into actionable insights enables organizations to detect and address process variations before they impact quality or efficiency.
 
@@ -148,7 +148,7 @@ As SPC continues to evolve through automation, machine learning, and real-time m
 
 ## Key Takeaways
 
-- **X-bar Chart**: Monitors process means.
-- **R Chart**: Tracks the range of variation within subgroups.
-- **Control Limits**: Established at three standard deviations above and below the process mean, defining the expected range of variation.
-- **Automotive Industry**: Monitoring critical dimensions ensures precise tolerances for vehicle assembly.
+- X-bar Chart: Monitors process means.
+- R Chart: Tracks the range of variation within subgroups.
+- Control Limits: Established at three standard deviations above and below the process mean, defining the expected range of variation.
+- Automotive Industry: Monitoring critical dimensions ensures precise tolerances for vehicle assembly.
